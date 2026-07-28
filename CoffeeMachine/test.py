@@ -1,0 +1,1 @@
+quarters_qty = int(input("how many quarters?: "))
