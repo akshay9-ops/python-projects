@@ -7,9 +7,13 @@ A collection of Python projects I've built while learning — spanning scripting
 | Project | Description | Concepts |
 |---|---|---|
 | [100-Days-of-Python](100-Days-of-Python) | Daily solutions from Angela Yu's "100 Days of Code" bootcamp — calculators, games, a password generator, a blind auction app, and more. See its own [README](100-Days-of-Python/README.md) for the full day-by-day index. | Fundamentals through intermediate Python |
+| [snake-game](snake-game) | A classic Snake game built with Turtle graphics — movement, growth, food spawning, scoreboard, and collision detection. See its own [README](snake-game/README.md) (with demo gif). | OOP, Turtle graphics, game loops |
+| [Day21 - ping-pong](Day21%20-%20ping-pong) | A two-player Pong game — paddles, a bouncing ball with collision physics, and a live scoreboard. | OOP, Turtle graphics, collision detection |
+| [lib](lib) | A small library management system — add, show, borrow, and return books through `Book` and `Library` classes. | OOP, class collaboration |
 | [OOP-coffee-machine](OOP-coffee-machine) | A coffee vending machine simulator refactored into classes (`CoffeeMaker`, `MoneyMachine`, `Menu`) instead of one procedural script. | OOP, separation of concerns |
 | [CoffeeMachine](CoffeeMachine) | The earlier procedural version of the coffee machine simulator — menu-driven, tracks resources and cost per drink. | Dictionaries, control flow |
 | [hirst-painting](hirst-painting) | Recreates Damien Hirst's dot painting style using Turtle graphics and a sampled color palette. | Turtle graphics, generative art |
+| [day-24-read-write-file](day-24-read-write-file) | Practice reading and writing text files from Python. | File I/O |
 | [day-19](day-19) | A turtle race game — pick a color and watch turtles race to the finish line. | Turtle graphics, randomness |
 | [day-18](day-18) | A spirograph generator drawing colorful geometric patterns with Turtle. | Turtle graphics, loops |
 | [day-17-start](day-17-start) | A `User` class modeling followers/following relationships, with unit tests. | OOP, testing |
