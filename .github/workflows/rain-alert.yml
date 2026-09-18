@@ -1,0 +1,27 @@
+name: Rain Alert
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *"
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r rain-alert/requirements.txt
+
+      - name: Run rain alert script
+        env:
+          OWM_APIKEY: ${{ secrets.OWM_APIKEY }}
+          ACCOUNT_SID: ${{ secrets.ACCOUNT_SID }}
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+        run: python rain-alert/main.py
