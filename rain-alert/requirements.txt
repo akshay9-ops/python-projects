@@ -1,0 +1,3 @@
+# This tells the Github Actions runner which packages to pip install before running script
+requests
+twilio
